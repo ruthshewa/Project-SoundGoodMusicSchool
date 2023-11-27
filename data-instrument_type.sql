@@ -1,0 +1,22 @@
+INSERT INTO instrument_type (instrument_type,instructor_id)
+VALUES
+  ('Violin',1),
+  ('Violin',2),
+  ('Violin',3),
+  ('Drums',4),
+  ('Violin',5),
+  ('Drums',6),
+  ('Piano ',7),
+  ('Violin',8),
+  ('Piano ',9),
+  ('Drums',10),
+  ('Drums',11),
+  ('Drums',12),
+  ('Piano ',13),
+  ('Violin',14),
+  ('Drums',15),
+  ('Violin',16),
+  ('Violin',17),
+  ('Drums',18),
+  ('Piano ',19),
+  ('Piano ',20);
