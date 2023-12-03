@@ -1,0 +1,60 @@
+INSERT INTO desired_instrument_type (desired_instrument_type,student_id)
+VALUES
+  ('drums',16),
+  ('drums',17),
+  ('violin',18),
+  ('piano',19),
+  ('drums',20),
+  ('piano',21),
+  ('drums',22),
+  ('piano',23),
+  ('violin',24),
+  ('violin',25);
+INSERT INTO desired_instrument_type (desired_instrument_type,student_id)
+VALUES
+  ('drums',26),
+  ('piano',27),
+  ('piano',28),
+  ('drums',29),
+  ('violin',30),
+  ('piano',31),
+  ('piano',32),
+  ('piano',33),
+  ('violin',34),
+  ('drums',35);
+INSERT INTO desired_instrument_type (desired_instrument_type,student_id)
+VALUES
+  ('violin',36),
+  ('drums',37),
+  ('violin',38),
+  ('violin',39),
+  ('piano',40),
+  ('drums',41),
+  ('piano',42),
+  ('drums',43),
+  ('piano',44),
+  ('piano',45);
+INSERT INTO desired_instrument_type (desired_instrument_type,student_id)
+VALUES
+  ('drums',46),
+  ('violin',47),
+  ('piano',48),
+  ('violin',49),
+  ('drums',50),
+  ('violin',51),
+  ('piano',52),
+  ('violin',53),
+  ('piano',54),
+  ('drums',55);
+INSERT INTO desired_instrument_type (desired_instrument_type,student_id)
+VALUES
+  ('violin',56),
+  ('piano',57),
+  ('piano',58),
+  ('piano',59),
+  ('violin',60),
+  ('piano',61),
+  ('violin',62),
+  ('drums',63),
+  ('violin',64),
+  ('piano',65);

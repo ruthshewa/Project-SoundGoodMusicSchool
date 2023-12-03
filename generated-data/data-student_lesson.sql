@@ -1,0 +1,58 @@
+INSERT INTO student_lesson (student_id,lesson_id)
+VALUES
+  
+  (16, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-01-04 ')),
+  (17, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-09-09 ')),
+  (18, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2023-11-28 ')),
+  (19, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2023-07-05 ')),
+  (20, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2023-11-18 ')),
+  (21, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-02-15 ')),
+  (22, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-05-02 ')),
+  (23, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-06-05 ')),
+  (24, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2023-10-12 ')),
+  (25, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Individual' AND lesson.date_of_taken_lesson = '2024-01-26 ')),
+  (25, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (26, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (27, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (28, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (29, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (30, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (31, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (32, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2023-09-23 ')),
+  (33, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (34, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (35, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 '));
+INSERT INTO student_lesson (student_id,lesson_id)
+VALUES
+  (36, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (37, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (38, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (39, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2024-02-18 ')),
+  (40, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (41, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (42, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (43, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (44, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (45, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (46, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')), 
+  (47, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (48, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Ensemble' AND lesson.date_of_taken_lesson = '2024-01-05 ')),
+  (49, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-15 ')),
+  (50, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-15 ')),
+  (51, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-15 ')),
+  (52, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-15 ')),
+  (53, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-15 ')),
+  (54, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (55, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 '));
+INSERT INTO student_lesson (student_id,lesson_id)
+VALUES
+  (56, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (57, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (58, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (59, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (60, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (61, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (62, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (63, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (64, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 ')),
+  (65, (SELECT lesson.id FROM lesson WHERE lesson.lesson_type = 'Group' AND lesson.date_of_taken_lesson = '2023-07-04 '));
