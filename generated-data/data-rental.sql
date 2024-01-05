@@ -1,4 +1,4 @@
-INSERT INTO rental (loan_date,return_date,instrument_id,student_id,price)
+INSERT INTO rental (loan_date,return_date,instrument_id,student_id)
 VALUES
   ('Jun 4, 2023','Jul 21, 2024',1,16),
   ('Jul 15, 2023','Apr 17, 2024',2,17),
